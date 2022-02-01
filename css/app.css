@@ -1,0 +1,56 @@
+
+input {
+  width: 20%;
+  padding: 8px 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=button] {
+  background-color: #4CAF50;
+  text-decoration: none;
+  margin: 4px 2px;
+  margin-left: 30.3%;
+  cursor: pointer;
+  font-size: 1em;
+}  
+
+.airplane label {
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+}
+
+
+table {
+  border-collapse: collapse;
+  border: 1px solid grey;
+  margin: 1%;
+}
+ 
+td {
+  border: 1px solid grey;
+  height: 1em;
+  width: 1em;
+  text-align: center;
+}  
+ 
+.class1 {
+   background-color: cornflowerblue;
+} 
+ 
+.class2 {
+   background-color: seagreen;
+} 
+  
+.class3 {
+    background-color: indianred;
+}  
+  
+#seats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 25vh;
+}
+     
